@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+    <title>Альтиус Лаб</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- <link rel="stylesheet" href="./css/aos.css"> -->
+    <link rel="stylesheet" href="./css/style.css">        
+</head>
+<body>
+   <div class="wrapper">
+       <header class="header">
+            <div class="header__container _container">
+                <a href="" class="header__logo">
+                    <img src="./img/svg/logo.svg" width="80" alt="Альтиус Лаб">
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">О компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#services" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" onclick="return false" class="menu__link">Проекты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__link">Контакты</a>
+                        </li>                        
+                        <li class="menu__item">
+                            <img src="./img/phone.png" width="30px" height="30px" alt="Адрес">
+                            <a href="tel:+79522148908" class="menu__link">+7 (952) 214-89-08</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+       </header> 
+       <main class="page">
+            <div class="page__main-block main-block">
+                <div class="main-block__container _container" id="about">
+                    <div class="main-block__body">
+                        <h1 class="main-block__title">Альтиус Лаб</h1>
+                        <div class="main-block__flex">
+                            <div class="main-block__text">Компания создана в 2022 году с целью оказания комплекса услуг по систематизации деятельности и формированию единого подхода в области информационной безопасности любых предприятий.
+                                <div class="main-block__button">
+                                    <a href="#" onclick="return false">Получить консультацию</a>
+                                </div>  
+                            </div>
+                            <img class="main-block__img" src="./img/main_img.jpeg" alt="cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line__in _container"></div>
+            <div class="line _container"></div>                       
+            <div class="page__services services" id="services">
+                <div class="line__in _container"></div> 
+                <div class="line__in _container"></div>               
+                <div class="services__container _container">
+                    <div class="services__body">
+                        <h2 class="services__title">Комплекс услуг по обеспечению информационной безопасности</h2>
+                    </div>
+                    <div class="services__items">
+                        <div class="services__item">
+                            Тестирование на проникновение
+                            <div class="services__item-table">
+                                <ul class="services__item-ul">
+                                    <li class="services__item-li">Анализ защищённости внешнего периметра</li>
+                                    <li class="services__item-li">Тестирование локальной сети</li>
+                                    <li class="services__item-li">Анализ защищённости веб-приложений</li>
+                                    <li class="services__item-li">Анализ защищённости Wi-Fi</li>
+                                    <li class="services__item-li">Социальный пентест</li>
+                                    <li class="services__item-li">Red Team</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            Услуги центра мониторинга информационной безопасности (Альтиус SOC)
+                            <div class="services__item-table">
+                                <ul>
+                                    <li class="services__item-li">Оперативный мониторинг</li>
+                                    <li class="services__item-li">Управление инцидентами</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            Расследования
+                            <div class="services__item-table">
+                                <ul>
+                                    <li class="services__item-li">Расследование информационно-телекоммуникационных правонарушений</li>
+                                    <li class="services__item-li">Компьютерная экспертиза и исследования</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>                               
+            </div>
+            <div class="line _container"></div>
+            <div class="page__service service">
+                <div class="service__container _container">
+                    <div class="service__body">
+                        <h2 class="service__title">Тестирование на проникновение</h2>
+                    </div>
+                    <div class="service__flex">
+                        <div></div>
+                        <div class="service__about">
+                            <div>Тестирование на проникновение (пентест) — это комплексная проверка
+                                защищённости и безопасности через моделирование возможных атак и угроз.<br><br></div>
+                                <div>Тестирование является одним из ключевых методов оценки состояния ИБ.<br><br></div>
+                                Тестирование на проникновение проводится, чтобы:
+                                <ul class="service__about-ul">
+                                    <li class="service__about-li">проверить, выдержит ли ИТ-инфраструктура попытку хакерского вторжения</li>
+                                    <li class="service__about-li">определить наиболее вероятные и опасные векторы атак на ваши системы</li>
+                                    <li class="service__about-li">сформулировать рекомендации по устранению выявленных недостатков</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">ОБЪЕКТЫ ТЕСТИРОВАНИЯ</h2>
+                   </div>
+                   <div class="test__description description">
+                        <div class="description__flex">
+                            <div class="description__flex-flex">
+                                <div class="description__number">01</div>
+                                <div class="description__about">
+                                    <div class="description__about-h">Анализ защищённости<br>
+                                    внешнего периметра</div><br>
+                                    Проверка информационных ресурсов заказчика, доступных
+                                    через интернет: почтового сервера, сервера VPN. Проверка межсетевых
+                                    экранов и систем защиты сети от внешних угроз. Анализ поможет
+                                    выявить существующие уязвимости, предотвратить доступ к ценной
+                                    информации и нарушение критичных элементов инфраструктуры.</div>
+                            </div>
+                            <div class="description__flex-flex1">
+                                <div  class="description__number">02</div>
+                                <div  class="description__about1">
+                                    <div class="description__about-h1">Тестирование<br>
+                                    локальной сети</div><br>
+                                    Проверка возможности атак изнутри организации. Возможна
+                                    проверка как с предоставлением доступа на уровне рядового
+                                    сотрудника, так и просто подключение к сети организации.</div>
+                            </div>
+                            <div class="description__flex-flex">
+                                <div class="description__number">03</div>
+                                <div class="description__about">
+                                    <div class="description__about-h">Анализ защищённости<br>
+                                    веб-приложений</div><br>
+                                    В тестирование безопасности веб-приложений входит сайт организации
+                                    и другие интерфейсы, размещённые на сторонних хостингах и серверах
+                                    в диапазоне адресов организации. Сюда же относится и тестирование
+                                    систем аутентификации и авторизации, а также проверка бекендов
+                                    мобильных приложений.</div>
+                            </div>
+                            <div class="description__flex-flex1">
+                                <div  class="description__number">04</div>
+                                <div  class="description__about1">
+                                    <div class="description__about-h1">Анализ защищённости<br>
+                                    Wi-Fi</div><br>
+                                    Исследование безопасности Wi-Fi сетей, которое позволит оценить
+                                    возможность проникновения во внутреннюю сеть организации
+                                    по беспроводному каналу.</div>
+                            </div>
+                            <div class="description__flex-flex">
+                                <div class="description__number">05</div>
+                                <div class="description__about">
+                                    <div class="description__about-h">Социальный пентест<br></div><br>
+                                    Тестирование методами социальной инженерии проверяет знания
+                                    сотрудников в области информационной безопасности. Помогает
+                                    предотвратить реальные угрозы в случае кибератаки путём
+                                    взаимодействия злоумышленника с сотрудниками</div>
+                            </div>
+                            <div class="description__flex-flex1">
+                                <div  class="description__number">06</div>
+                                <div  class="description__about1">
+                                    <div class="description__about-h1">Red Team<br></div><br>
+                                    Максимально приближено к условиям реальной атаки, позволяет
+                                    оценить скорость реагирования, а также эффективность процедур,
+                                    систем и средств защиты.</div>
+                            </div>
+                        </div>                        
+                   </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">МОДЕЛИ ТЕСТИРОВАНИЯ</h2>
+                   </div>
+                   <div class="model__description">
+                    <div class="model__item">
+                        <div class="model__item-title">
+                            <img src="./img/blackbox.png" alt="BlackBox" width="120px">
+                        </div>
+                        <div class="model__item-about">
+                            BlackBox — «чёрный ящик». Специалисты
+                            располагают только общедоступной
+                            информацией о цели исследования, сети
+                            и параметрах. Данный вариант максимально
+                            приближен к реальной ситуации.<br><br>
+                            В качестве исходных данных для тестирования
+                            исполнителю сообщается только
+                            имя организации или её сайт, а всю остальную
+                            информацию, такую как используемые
+                            организацией IP-адреса, сайты, точки выхода
+                            офисов и филиалов организации в сеть
+                            Интернет, исполнителю придётся выяснять
+                            самому.
+                        </div>
+                    </div>
+                    <div class="model__item">
+                        <div class="model__item-title">
+                            <img src="./img/whitebox.png" alt="WhiteBox" width="120px">
+                        </div>
+                        <div class="model__item-about">
+                            WhiteBox – полная противоположность
+                            BlackBox. В данном случае специалистам
+                            предоставляется максимум необходимой для
+                            них информации вплоть до административного
+                            доступа на любые сервера. Этот способ
+                            позволяет получить наиболее полное
+                            исследование уязвимости объекта.<br><br>
+                            При WhiteBox исполнителю не придётся
+                            тратить время на сбор информации,
+                            составление карты сети и другие действия
+                            перед началом тестирования, а также сократит
+                            время самого тестирования, так как часть
+                            проверок просто не придётся делать. Минус
+                            данного метода состоит в том, что это менее
+                            приближено к ситуации реальной атаки
+                            злоумышленника.
+                        </div>
+                    </div>
+                    <div class="model__item">
+                        <div class="model__item-title">
+                            <img src="./img/graybox.png" alt="GraykBox" width="120px">
+                        </div>
+                        <div class="model__item-about">
+                            GrayBox – это средний вариант между WhiteBox
+                            и BlackBox, когда исполнитель действует
+                            по варианту BlackBox и периодически
+                            запрашивает информацию о тестируемой
+                            системе для того, чтобы сократить время
+                            исследования или более эффективно
+                            приложить свои усилия.<br><br>
+                            Такой вариант самый популярный,
+                            так как позволяет провести тестирование
+                            без трат лишнего времени на сбор информации
+                            и больше времени уделить поиску уязвимостей.
+                            При этом данный вариант остаётся достаточно
+                            близким к реальной ситуации действия
+                            злоумышленника.
+                            
+                        </div>
+                    </div>                                       
+                   </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">ЗАКАЗЧИК ПОЛУЧАЕТ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="customer__title">
+                            В результате мы предоставляем заказчику
+                            подробный отчёт, который содержит:<br><br>
+                            <ul class="customer__title-ul">
+                                <li>цель и границы проводимых работ</li>
+                                <li>состав и методику проведения работ по анализу
+                                    защищённости</li>
+                                <li>перечень актуальных уязвимостей ИБ</li>
+                                <li>результаты проведённых проверок</li>
+                                <li>результаты эксплуатации актуальных
+                                    уязвимостей ИБ</li>
+                                <li>рекомендации по устранению выявленных</li>
+                                    уязвимостей и повышению уровня защищённости</li>
+                            </ul>
+                        </div>
+                        <div class="customer__img">
+                            <img src="./img/customer.png" alt="Customer" width="450px">
+                        </div>
+                   </div>
+                </div>                
+            </div>
+            <div class="line _container"></div>
+            <div class="page__service service">
+                <div class="service__container _container">
+                    <div class="service__body">
+                        <h2 class="service__title">УСЛУГИ ЦЕНТРА МОНИТОРИНГА информационной БЕЗОПАСНОСТИ (АЛЬТИУС SOC)</h2>
+                    </div>
+                    <div class="service__flex">
+                        <div></div>
+                        <div class="service__about">
+                            <div>SOC-центр представляет собой организационно-техническое решение, позволяющее:<br><br></div>
+                                <ul class="service__about-ul">
+                                    <li class="service__about-li">автоматизировано выявлять события, представляющие потенциальную угрозу для организации,
+                                        ее информационных систем или информационных активов (инциденты ИБ);</li>
+                                    <li class="service__about-li">реализовать процесс обработки выявленных инцидентов ИБ, позволяющий в гарантированное
+                                        время оповещать ответственные подразделения организации о том, что произошло, а также
+                                        рекомендовать меры, необходимые для восстановления безопасного состояния;</li>
+                                    <li class="service__about-li">предоставить необходимую информацию для анализа и принятия обоснованных решений в
+                                        процессе обеспечения ИБ.</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">РЕАЛИЗАЦИЯ И ВНЕДРЕНИЕ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="customer__title soc">
+                            Эксперты Альтиус SOC, отвечают за реализацию проектов по внедрению и развитию решений класса
+                            SIEM, SGRC, IRP/SOAR, Threat Intelligence & Security Feeds и Security Intelligence, предоставляют услуги
+                            коммерческого SOC-центра, активно участвуют в жизни российского и международного сообщества
+                            ИБ, осуществляют вклад в развитие открытых репозиториев со сценариями детектирования угроз,
+                            публикуют работы на открытых тематических ресурсах и помогают в переводе работ зарубежных
+                            авторов на русский язык.
+                            <br><br>
+                            Все это выполняется с целью предоставления современны экспертных решений для следующих задач наших заказчиков:
+                            <ul class="customer__title-ul">
+                                <li>Коммерческий SOC-центр</li>
+                                <li>Автоматизация процессов ИБ в части организации мониторинга событий (SIEM/SEM)</li>
+                                <li>Обогащение процессов ИБ сторонней аналитикой (TI(P) & Security Feeds)</li>
+                                <li>Мониторинг и управление инцидентами ИБ (SIEM/IR(P))</li>
+                                <li>Автоматизация управления и реагирования на инциденты ИБ (IR(P)/SOAR)</li>
+                                <li>Визуализация и контроль метрик эффективности ИБ (Security Intellegence)</li>
+                                <li>Автоматизированная атрибуция угроз (MITRE ATT&CK®, SHIELD®, БДУ ФСТЭК)</li>
+                                <li>Защита бренда</li>
+                                <li>Выездные расследования и форензика (DFIR)</li>
+                                <li>Аналитическое сопровождение MSSP услуг Sandbox/EDR</li>
+                            </ul>
+                        </div>                        
+                   </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">КАК ПРОИСХОДИТ ПОДКЛЮЧЕНИЕ УСЛУГИ SOC</h2>
+                   </div>
+                   <div class="connection-soc">
+                        <div class="connection-soc__how">
+                            <img src="./img/arrow.png" alt="Arrow" height="998px">
+                        </div>
+                        <div class="connection-soc__how2 ">
+                            <div class="connection__soc-items">
+                                <div class="soc__item1">1 день</div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc1.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Заполнение заявки</div>
+                            </div>
+                            <div class="connection__soc-items">
+                                <div class="soc__item1"></div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc2.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Оперативное обследование
+                                    информационной инфраструктуры для
+                                    определения архитектурных особенностей
+                                    услуги и внедрения компонент-системы
+                                </div>
+                            </div>
+                            <div class="connection__soc-items">
+                                <div class="soc__item1"></div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc3.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Организация VPN-тоннеля, внедрение платформы
+                                    согласно выбранному варианту архитектуры
+                                    услуги или подключение к существующим
+                                    решениями, подключение согласованного с
+                                    заказчиком перечня источников событий
+                                </div>
+                            </div>
+                            <div class="connection__soc-items">
+                                <div class="soc__item1"></div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc4.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Согласование перечня базовых
+                                    контролей, автоматически
+                                    выполняемых центром Альтиус SOC
+                                </div>
+                            </div>
+                            <div class="connection__soc-items">
+                                <div class="soc__item1">7 день ПНР</div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc5.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Выбор варианта
+                                    архитектуры услуги:
+                                    all-in-cclient, hybrid,
+                                    all-in-acrc
+                                </div>
+                            </div>
+                            <div class="connection__soc-items">
+                                <div class="soc__item1">21 день ПНР</div>
+                                <div class="soc__item2">
+                                    <img src="./img/soc6.png" alt="Soc" width="150px">
+                                </div>
+                                <div class="soc__item3">Настройка процессов выявления
+                                    и обработки инцидентов в
+                                    соответствии с согласованными
+                                    параметрами SLA и уровнем
+                                    услуги мониторинга
+                                </div>
+                            </div>
+                        </div>                           
+                   </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">УРОВНИ УСЛУГ АЛЬТИУС SOC</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="level__soc">
+                            <img src="./img/level-soc.png" alt="level soc" width="100%">
+                        </div>
+                   </div>
+                   <div class="level__soc-download">
+                   <a class="level__soc-download_img" href="./img/Уровни услуг Альтиус SOC.jpg" target="_blank">Скачать буклет</a>                       
+                    </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">СХЕМА РАБОТЫ ПОСЛЕ ВНЕДРЕНИЯ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="level__soc">
+                            <img src="./img/scheme.png" alt="level soc" width="100%">
+                        </div>
+                   </div>
+                   <div class="level__soc-download">
+                   <a class="level__soc-download_img" href="./img/Схема работы после внедрения.jpg" target="_blank">Скачать буклет</a>                       
+                    </div>
+                </div>                
+            </div>
+            <div class="line _container"></div>
+            <div class="page__service service">
+                <div class="service__container _container">
+                    <div class="service__body"  data-aos="zoom-in-right">
+                        <h2 class="service__title">РАССЛЕДОВАНИЕ</h2>
+                    </div>
+                    <div class="service__flex">
+                        <div></div>
+                        <div class="service__about" data-aos="zoom-in-left">
+                            <div>Расследование правонарушений, совершаемых с использованием информационнотелекоммуникационных технологий — это специализированная деятельность, направленная
+                                на противодействие компьютерным, экономическим, корпоративным преступлениям.<br><br></div>
+                                <div>Качественное расследование высокотехнологичного правонарушения является необходимым
+                                    условием для возбуждения уголовного дела или подачи заявления в суд.<br><br></div>
+                                    Расследование высокотехнологичных правонарушений проводится, чтобы:
+                                <ul class="service__about-ul">
+                                    <li class="service__about-li">собрать доказательную базу по произошедшему инциденту</li>
+                                    <li class="service__about-li">установить лиц, которые могут иметь причастность к происшествию</li>
+                                    <li class="service__about-li">выявить уязвимости и пробелы в системе обеспечения безопасности</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">КОМПЛЕКС УСЛУГ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="customer__title soc">
+                            Расследование информационно-телекоммуникационных правонарушений<br><br>
+                            <ul class="customer__title-ul">
+                                <li>кража информации или объектов интеллектуальной собственности</li>
+                                <li>хакерские атаки на компьютерные системы и сети (взломы, DDOS, распространение вредоносного ПО, фишинг)</li>
+                                <li>распространение недостоверной или порочащей информации в СМИ и сети Интернет</li>
+                                <li>преступления, связанные с использованием цифровых валют (криптовалют)</li>
+                                <li>экономические и корпоративные преступления</li>
+                            </ul>
+                        </div> 
+                        <div class="customer__title soc">
+                            Компьютерная экспертиза и исследования<br><br>
+                            <ul class="customer__title-ul">
+                                <li>криминалистические исследования компьютерной техники</li>
+                                <li>сбор и закрепление электронно-цифровых доказательств</li>
+                                <li>квалифицированные OSINT-исследования (конкурентная разведка)</li>                                
+                            </ul>
+                        </div>                           
+                   </div>
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body">
+                    <h2 class="obj-test__title">ЦЕНЫ НА УСЛУГИ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="level__soc">
+                            <img src="./img/price.png" alt="level soc" width="100%">
+                        </div>
+                   </div>
+                   <div class="level__soc-download">
+                   <a class="level__soc-download_img" href="./img/Цены.jpg" target="_blank">Скачать буклет</a>                       
+                    </div>
+                </div>                
+            </div>
+            <div class="line _container"></div>
+            <div class="page__obj-test obj-test">
+                <div class="obj-test__container _container">
+                   <div class="obj-test__body" id="contact">
+                    <h2 class="obj-test__title">КОНТАКТЫ</h2>
+                   </div>
+                   <div class="customer">
+                        <div class="level__soc">
+                            <div class="location">
+                                <div class="map">
+                                    <img src="./img/location.png" alt="Location" width="100%">
+                                </div>
+                                <div class="position_text">
+                                    <p class="location_text">Акционерное общество «Альтиус Лаб»<br><br>
+                                    195027, г.Санкт-Петербург, Свердловская набережная, д.44 литера Д, помещение 315</p><br>
+                                    <p class="location_text">Телефон: <a href="tel:+79522148908" style="text-decoration: none; color: white;">+7 952 214 8908</a> </p>
+                                    <p class="location_text">Электронная почта: <a href="mailto:info@altiuslab.ru" style="text-decoration: none; color: white;">info@altiuslab.ru</a></p>
+                                </div>
+                            </div>
+                        </div>
+                   </div>                   
+                </div>                
+            </div>
+            <div class="line__in _container"></div>
+       </main>
+       <footer class="footer">
+        <div class="footer_flex">
+            <div class="footer_item">
+                <div class="footer_logo">
+                    <img src="./img/svg/logo.svg" alt="Альтиус Лаб" width="100" class="footer_logo-pic">
+                </div>
+                <div class="footer_adress">
+                    <img src="./img/adress.png" width="30px" height="30px" alt="Адрес">
+                    <p class="footer_text">Свердловская наб, д. 44 литера Д, помещ. 315<br>г. Санкт-Петербург, 195027</p>
+                </div>
+                <div class="footer_connection">
+                    <div class="footer_tel">
+                        <img src="./img/phone.png" width="30px" height="30px" alt="Адрес">
+                        <a href="tel:+79522148908" class="footer_text-a">+7 952 214 8908</a>
+                    </div>
+                    <div class="footer_email">
+                        <img src="./img/email.png" width="30px" height="30px" alt="Адрес">
+                        <a href="mailto:info@altiuslab.ru" class="footer_text-a">info@altiuslab.ru</a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p class="footer_text">
+                        © 2022 Альтиус Лаб 
+                    </p>
+                    <p class="footer_text">
+                        <br>Практическая безопасность<br> ваших информационных активов
+                    </p>
+                </div>                
+            </div>
+        </div>
+        </footer>
+   </div>
+    <!-- <script src="./js/aos.js"></script> -->
+    <script src="./js/main.js"></script>    
+    </body>
+</html>
