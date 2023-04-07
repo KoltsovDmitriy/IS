@@ -68,11 +68,12 @@ html, body {
 }
 .header__container{
   display: flex;
+  justify-content: flex-end;
   min-height: 70px;
   align-items: end; 
 }
 .header__menu{
-  margin: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 30px;
 }
 @media (max-width: 1033px){
   .header__menu{
@@ -146,6 +147,7 @@ html, body {
 .main-block__flex{
   display: flex;
   justify-content:space-around;
+  align-items: end;
 }
 .main-block__text{
   font-size: 20px;
