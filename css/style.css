@@ -552,6 +552,10 @@ html, body {
 
 }
 .menu__items-active{
-  color: #D3AD5F;
-  text-decoration: underline;
-} 
+  border-bottom: #D3AD5F 1px solid;
+}
+.services__items-img{
+  display: flex;
+  align-items: end; 
+  gap: 1rem; 
+}
