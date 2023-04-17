@@ -5,6 +5,9 @@
 /* #5eebdf 
    #EB5E6A*/
 
+   /* D3AD5F
+      015D65*/
+
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -33,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background:#009DD9;
+  background:#015D65;
   z-index: 1500;
 }
 .preloader__image {
@@ -81,12 +84,20 @@ html, body {
   flex-direction: column;
 }
 .header{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .header_active{
-  background: #009DD9;
+  background: #015D65;
   /* opacity: .95; */
 }
+.header__logo{
+  color: #ffffff;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.header__container-menu{
+  margin-bottom: 15px;
+} 
 ._container {
   max-width: 1360px;
   padding: 0px 15px;
@@ -159,18 +170,18 @@ html, body {
     justify-content: center;
     min-width: 190px;
     height: 40px;
-    border: 1px solid #cc3300;
+    border: 1px solid #D3AD5F;
     border-radius: 30px;   
 }
 .menu__link-mail{
   color: #ffffff;
 }
 .menu__link:hover, .menu__link:focus, .menu__link:active{
-  color: #cc3300;
+  color: #D3AD5F;
   transition: background-color 0.2s;
 }
 .item__button:hover, .item__button:focus, .item__button:active{
-  background-color: #cc3300;
+  background-color: #D3AD5F;
   transition: background-color 0.2s;
 }
 .menu__item-down{
@@ -210,7 +221,7 @@ html, body {
 .menu__list ul li a:hover {
   white-space: wrap;
   display: block;  
-  color:#cc3300;
+  color:#D3AD5F;
   font-size: 14px;
 }
 .menu__list li:hover ul{
@@ -234,7 +245,7 @@ html, body {
 }
 .main-block{
   position: relative;
-  background: #009DD9;
+  background: #015D65;
   padding-bottom: 90px;
 }
 .main-block__body{
@@ -267,7 +278,7 @@ html, body {
   font-size: 16px;
   text-decoration: none;
   color: white;
-  background: #cc3300;
+  background: #D3AD5F;
   border-radius: 30px; 
   display: flex;
   justify-content: center;
@@ -279,9 +290,9 @@ html, body {
 }
 .main-block__button a:hover, .main-block__button a:focus, .main-block__button a:active{
  
-  background-color: #009DD9;
+  background-color: #015D65;
   transition: color 0.2s;
-  border: 1px solid #cc3300
+  border: 1px solid #D3AD5F
 }
 
 .main-block__img{
@@ -315,7 +326,7 @@ html, body {
 
 /* --------------------------Services---------------- */
 .line__bottom{
-  border-bottom: 2px solid #cc3300;  
+  border-bottom: 2px solid #D3AD5F;  
 }
 .services__container{
   margin-top: 100px;
@@ -336,7 +347,7 @@ html, body {
   font-weight: 500;
   line-height: 140%; 
   text-align: center;
-  color: #cc3300;;
+  color: #D3AD5F;;
 }
 .services__items{
   display: flex; 
@@ -374,7 +385,7 @@ html, body {
 
 .about{
   /* background-color: #5eebdf; */
-  background-color: #009DD9;
+  background-color: #015D65;
 }
 
 .about__title{
@@ -393,7 +404,7 @@ html, body {
 }
 
 .contact__title{
-  color: #cc3300;
+  color: #D3AD5F;
 }
 .contact__subtitle{
   color: #4D4D4D;
@@ -416,7 +427,7 @@ html, body {
 
 /* -------Footer--------------------------------------------- */
 .footer{
-  background: #009DD9;  
+  background: #015D65;  
 }
 .footer__flex{
   max-width: 1360px;
@@ -479,7 +490,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: 1px solid #cc3300;
+  border: 1px solid #D3AD5F;
   border-radius: 15px;
   width: 1260px;
   padding: 20px 20px;
@@ -488,10 +499,10 @@ html, body {
   background: #ffffff;
 }
 .test__menu-item{
-  color:#009DD9; 
+  color:#015D65; 
 }
 .test__menu-item:hover{
-  color: #cc3300;
+  color: #D3AD5F;
 }
 .test__menu-items{
   padding-top: 5px;
@@ -521,7 +532,7 @@ html, body {
 }
 .line__color{
   margin-top: 30px;
-  border: #cc3300 1px solid;
+  border: #D3AD5F 1px solid;
 }
 .red-team{
   color: red;
@@ -541,6 +552,6 @@ html, body {
 
 }
 .menu__items-active{
-  color: #cc3300;
+  color: #D3AD5F;
   text-decoration: underline;
 } 
