@@ -88,7 +88,6 @@ html, body {
 }
 .header_active{
   background: #015D65;
-  /* opacity: .95; */
 }
 .header__logo{
   color: #ffffff;
@@ -384,7 +383,6 @@ html, body {
 /* ---------------------------------------------------- */
 
 .about{
-  /* background-color: #5eebdf; */
   background-color: #015D65;
 }
 
