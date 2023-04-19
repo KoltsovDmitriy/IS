@@ -443,8 +443,11 @@ html, body {
   margin-top: 10px;
 }
 .copyright{
-  width: 1360px;
-  margin: 0px auto;
+  max-width: 1360px;
+  /* margin: 0px auto; */
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .footer_text{
   font-size: 13px;
@@ -522,6 +525,7 @@ html, body {
   max-width: 250px;
   text-align: center;
   padding: 10px 10px;
+  border-right:  #D3AD5F 1px solid;
 
 }
 .menu__items-active{
@@ -532,8 +536,44 @@ html, body {
   align-items: end; 
   gap: 1rem; 
 }
+.news__limited{
+  max-height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+.news__limited .news__bottom{
+  position: absolute;
+  bottom: 0;
+  /* background: linear-gradient(to bottom, rgba(255, 255, 255,0),  rgba(255, 255, 255, 1)80%); */
+  width: 100%;
+  height: 50px;
+  opacity: 1;
+  transition: .3s;
+}
+.news__read-more-button{
+  color: #D3AD5F;
+  cursor: pointer;
+  display: inline-block;
+  /* padding: 10px;   */
 
-
+}
+.news__read-more ~ .news__read-more-button:after{
+  content: 'Читать...';
+}
+.news__read-more:checked ~ .news__read-more-button:after{
+  content: 'Свернуть';
+}
+.news__read-more:checked ~ .news__limited{
+  max-height: none;
+}
+.news__read-more{
+  opacity: 0;
+  position: absolute;
+}
+.news__data{
+  display: flex;
+  justify-content: end;
+}
 
 /* _______________________________ */
 @media (max-width: 1033px){
@@ -570,6 +610,6 @@ html, body {
 }
 @media (max-width: 1110px){
   .item__button{
-    visibility: hidden;
+    display: none;
   }
 }
