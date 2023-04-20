@@ -221,6 +221,14 @@ html, body {
   box-shadow: 5px 5px 5px rgb(100, 99, 99);
   z-index: 10;
 }
+@media (max-width: 470px){
+  .menu__list ul li a {   
+    font-size: 14px;
+  }
+  .menu__link-submenu{
+    width: 250px;
+  }
+}
 
 /* -------Main--------------------------------------------- */
 
