@@ -582,7 +582,6 @@ html, body {
 .news__limited .news__bottom{
   position: absolute;
   bottom: 0;
-  /* background: linear-gradient(to bottom, rgba(255, 255, 255,0),  rgba(255, 255, 255, 1)80%); */
   width: 100%;
   height: 50px;
   opacity: 1;
@@ -592,7 +591,6 @@ html, body {
   color: #D3AD5F;
   cursor: pointer;
   display: inline-block;
-  /* padding: 10px;   */
 
 }
 .news__read-more ~ .news__read-more-button:after{
