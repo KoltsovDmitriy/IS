@@ -15,3 +15,9 @@ window.onload = function () {
       document.body.classList.remove('loaded_hiding');
     }, 500);
   }
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("burger").addEventListener("click", function()
+    {
+        document.querySelector(".header").classList.toggle("open")
+    })
+})
